@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Azul celeste */
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 20px; /* Espacio entre el logo y el título */
+}
+
+.header-items {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header-items h1 {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-right: 20px; /* Espacio entre el título y el buscador */
+}
+
+.search-box {
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 20px; /* Hacer la barra más circular */
+    border: 1px solid #ddd;
+    width: 300px; /* Hacer la barra más larga */
+}
+
+.sign-in, .cart {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.sign-in:hover, .cart:hover {
+    background-color: #0056b3;
+}
+
+nav {
+    background-color: #343a40;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+    justify-content: center; /* Centra el texto en el nav */
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+main {
+    padding: 20px;
+}
+
+.product-section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.product-img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.cookie-notice {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cookie-notice button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cookie-notice button:hover {
+    background-color: #0056b3;
+}
+
+.cart-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.cart-modal button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-modal button:hover {
+    background-color: #0056b3;
+}

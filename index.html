@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/leaf.png" alt="Logo" class="logo">
+            <div class="header-items">
+                <h1>EasyBay</h1>
+                <input type="text" placeholder="Search for anything..." class="search-box">
+                <button class="sign-in">Sign In</button>
+                <button class="cart" onclick="openCart()">Carrito</button>
+            </div>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#Aeonium">Aeonium</a></li>
+                <li><a href="#Andormischus">Andormischus</a></li>
+                <li><a href="#Agave">Agave</a></li>
+                <li><a href="#Aloe">Aloe</a></li>
+                <li><a href="#Anacampseros">Anacampseros</a></li>
+                <li><a href="#Anistaloe">Anistaloe</a></li>
+                <li><a href="#home">More...</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+
+
+
+        <section id="home">
+
+
+
+
+
+
+
+            <h2>Your source for serious succulent specialties</h2>
+        </section>
+        <section class="product-section">
+            <img src="img/aeonium-s.jpg" alt="Product 1" class="product-img">
+            <p>Aeonium</p>
+        </section>
+        <section class="product-section">
+            <img src="img/aloe-s.jpg" alt="Product 2" class="product-img">
+            <p>Aloe</p>
+        </section>
+        <section class="product-section">
+            <img src="img/cactus-s.jpg" alt="Product 3" class="product-img">
+            <p>Cactus</p>
+        </section>
+        <section class="product-section">
+            <img src="img/echeveria-s.jpg" alt="Product 4" class="product-img">
+            <p>Echeverria</p>
+        </section>
+    </main>
+
+    <div id="cookie-notice" class="cookie-notice">
+        <p>This site makes use of third cookies, by clicking "Accept", you agree to the terms outlined in our <a href="https://cookiefirst.com/es/que-es-una-politica-de-cookies-y-por-que-la-necesitas/">cookie policy</a> <button
+                onclick="acceptCookies()">Aceptar</button></p>
+    </div>
+
+    <div id="cart-modal" class="cart-modal">
+        <p>Your cart is empty!</p>
+        <button onclick="closeCart()">Ok</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
